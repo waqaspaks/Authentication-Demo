@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationDemo.API", "AuthenticationDemo.API\AuthenticationDemo.API.csproj", "{6F37C8E5-772B-4DCB-1DB7-31A1D8A296DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationDemo.Blazor", "AuthenticationDemo.Blazor\AuthenticationDemo.Blazor.csproj", "{86785A83-AC43-441E-A7B9-6A125D55C9A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F37C8E5-772B-4DCB-1DB7-31A1D8A296DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F37C8E5-772B-4DCB-1DB7-31A1D8A296DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F37C8E5-772B-4DCB-1DB7-31A1D8A296DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F37C8E5-772B-4DCB-1DB7-31A1D8A296DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86785A83-AC43-441E-A7B9-6A125D55C9A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86785A83-AC43-441E-A7B9-6A125D55C9A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86785A83-AC43-441E-A7B9-6A125D55C9A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86785A83-AC43-441E-A7B9-6A125D55C9A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF75182D-6597-4AD3-A29C-BD9BCB3B782F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,43 @@
+@page "/test"
+@using AuthenticationDemo.Blazor.Services
+@using System.Net.Http
+@inject ApiService ApiService
+
+<h3>Test API Data</h3>
+
+@if (errorMessage != null)
+{
+    <div class="alert alert-danger">@errorMessage</div>
+}
+
+@if (testData == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <pre>@testData</pre>
+}
+
+@code {
+    private string? testData;
+    private string? errorMessage;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            // Try to get data from the test API
+            var response = await ApiService.GetAsync<object>("api/Test");
+            testData = System.Text.Json.JsonSerializer.Serialize(response, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
+        }
+        catch (HttpRequestException ex)
+        {
+            errorMessage = $"Request error: {ex.Message}";
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Error: {ex.Message}";
+        }
+    }
+}

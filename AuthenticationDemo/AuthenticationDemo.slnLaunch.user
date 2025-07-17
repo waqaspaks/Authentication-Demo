@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "AuthenticationDemo.API\\AuthenticationDemo.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "AuthenticationDemo.Blazor\\AuthenticationDemo.Blazor.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

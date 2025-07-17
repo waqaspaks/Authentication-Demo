@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AuthenticationDemo.API</name>
+    </assembly>
+    <members>
+        <!-- Example XML documentation for controllers and models -->
+        <member name="T:AuthenticationDemo.API.Controllers.WeatherForecastController">
+            <summary>
+                Controller for weather forecast operations.
+            </summary>
+        </member>
+        <member name="M:AuthenticationDemo.API.Controllers.WeatherForecastController.Get">
+            <summary>
+                Gets the weather forecast data.
+            </summary>
+            <returns>List of weather forecasts.</returns>
+        </member>
+        <member name="T:AuthenticationDemo.API.Models.WeatherForecast">
+            <summary>
+                Weather forecast model.
+            </summary>
+        </member>
+        <!-- Add more XML documentation for other controllers, actions, and models as needed -->
+    </members>
+</doc>
